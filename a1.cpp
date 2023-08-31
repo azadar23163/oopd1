@@ -79,7 +79,7 @@ int main() {
         }
 
         inputFileStream.close();
-           cout<<finalamt;
+           cout<<"compute and print how much is the money actually received, "<<finalamt<<"euro \n";
         //double finalamt = amount;
         
         for (int i = entryCount - 1; i >= 1; i--) {
@@ -90,7 +90,7 @@ int main() {
             }
         }
 
-        cout << "Final amount after traversal: " << finalamt << endl;
+        cout<<"value the money obtained after adding interest had in the year it was invested. "<<finalamt<<"euro ";
     }
 
     return 0;
