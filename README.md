@@ -22,7 +22,6 @@ To compile, debug, and run the program, follow these steps:
      ```
      make optimized
      ```
-   - This will generate an optimized binary executable.
 
 4. **Running the Program:**
 
@@ -38,7 +37,6 @@ To compile, debug, and run the program, follow these steps:
      ./optimized_binary
      ```
 ---
-
 
 ## Question 1
 
