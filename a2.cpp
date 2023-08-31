@@ -27,6 +27,7 @@ int main() {
 
 
     if(stod(year)<2002){
+        cout<<"amount converted to euro";
         amount=amount/166;
     }
 
@@ -87,7 +88,7 @@ int main() {
         }
 
         inputFileStream.close();
-           cout<<finalamt;
+           cout<<"how much is the money actually received,"<<finalamt<<"euro \n";
         
         //double finalamt = amount;
         
@@ -100,7 +101,7 @@ int main() {
             }
         }
 
-        cout<<"Final amount after traversal:"<<finalamt;
+        cout<<"\nvalue the money obtained after adding interest had in the year it was invested."<<finalamt<<" euro \n";
 
            
         for (int i = 63; i >= 19; i--) {
@@ -120,8 +121,7 @@ int main() {
 
         }
          
-      cout<<"tese";
-      cout<<amt1<<"\n"<<amt2;
+     cout<<"\n";
 
       if(amt1>amt2){
           cout<<"republican grew faster";
